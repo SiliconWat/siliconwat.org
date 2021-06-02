@@ -17,6 +17,10 @@ header {
 main {
     height: 75vh;
     background: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
