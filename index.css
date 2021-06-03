@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: plum;
+    background: grey;
     margin: 0;
     display: flex;
     flex-direction: column;
