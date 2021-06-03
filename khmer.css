@@ -10,7 +10,7 @@ body {
 
 header {
     height: 15vh;
-    background: lightskyblue;
+    background: plum;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -28,7 +28,7 @@ header section {
 
 main {
     height: 75vh;
-    background: lightseagreen;
+    background: thistle;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -37,7 +37,7 @@ main {
 
 footer {
     height: 10vh;
-    background: lightcoral;
+    background: lavender;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

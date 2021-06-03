@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: lightblue;
+    background: linear-gradient( plum, thistle, lavender);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body {
 
 header {
     height: 20vh;
-    background: lightseagreen;
+    background: plum;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -29,7 +29,7 @@ header section {
 
 main {
     height: 65vh;
-    background: lightskyblue;
+    background: thistle;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -39,7 +39,7 @@ main {
 
 footer {
     height: 15vh;
-    background: lightsalmon;
+    background: lavender;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
