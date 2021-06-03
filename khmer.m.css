@@ -1,3 +1,7 @@
+html {
+    font-size: medium;
+}
+
 body {
     background: lightblue;
     margin: 0;
@@ -29,7 +33,7 @@ main {
     background: lightskyblue;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -52,4 +56,16 @@ header img {
 
 main img {
     width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a, select, small, strong {
+    font-size: 1.1rem;
 }
