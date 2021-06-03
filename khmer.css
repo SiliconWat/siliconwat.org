@@ -31,7 +31,7 @@ main {
     background: lightseagreen;
     display: flex;
     flex-direction: column;
-    justify-content: space-evely;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -59,6 +59,6 @@ h1 {
      font-size: 2rem;
  }
 
- a, select, small {
+ a, select, small, strong {
      font-size: 1.5rem;
  }

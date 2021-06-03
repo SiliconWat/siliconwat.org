@@ -60,6 +60,6 @@ h1 {
      font-size: 2rem;
  }
 
- a, select, small {
+ a, select, small, strong {
      font-size: 1.5rem;
  }

@@ -23,7 +23,7 @@ header section {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 50vw;
+    width: 100vw;
 
 }
 
@@ -34,10 +34,11 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center
 }
 
 footer {
-    height: 10vh;
+    height: 15vh;
     background: lightsalmon;
     display: flex;
     flex-direction: column;
@@ -50,7 +51,7 @@ footer small {
 }
 
 header img {
-    height: 50px;
+    height: 80px;
 }
 
 main img {
