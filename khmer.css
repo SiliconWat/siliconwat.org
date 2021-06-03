@@ -1,3 +1,6 @@
+html {
+    font-size: medium;
+}
 body {
     background: grey;
     margin: 0;
@@ -48,3 +51,14 @@ header img {
 main img {
     height: 300px
 }
+
+h1 {
+    font-size: 3rem;
+}
+ p {
+     font-size: 2rem;
+ }
+
+ a, select, small {
+     font-size: 1.5rem;
+ }
