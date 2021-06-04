@@ -1,3 +1,6 @@
+html {
+    font-size: medium;
+}
 body {
     background: grey;
     margin: 0;
@@ -7,16 +10,25 @@ body {
 
 header {
     height: 15vh;
-    background: lightskyblue;
+    background: plum;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+
+}
+
 main {
     height: 75vh;
-    background: lightseagreen;
+    background: thistle;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -25,7 +37,7 @@ main {
 
 footer {
     height: 10vh;
-    background: lightcoral;
+    background: lavender;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,9 +45,20 @@ footer {
 }
 
 header img {
-    height: 50px
+    height: 100px
 }
 
 main img {
     height: 300px
 }
+
+h1 {
+    font-size: 3rem;
+}
+ p {
+     font-size: 2rem;
+ }
+
+ a, select, small, strong {
+     font-size: 1.5rem;
+ }
