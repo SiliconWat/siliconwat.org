@@ -56,10 +56,15 @@ main img {
 h1 {
     font-size: 3rem;
 }
- p {
-     font-size: 2rem;
- }
 
- a, select, small, strong {
-     font-size: 1.5rem;
- }
+p {
+    font-size: 2rem;
+}
+
+a, select, small, strong {
+    font-size: 1.5rem;
+}
+
+p a {
+    font-size: 2rem;
+}
