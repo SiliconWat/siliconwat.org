@@ -67,3 +67,7 @@ a, select, small, strong {
 p a {
     font-size: 2rem;
 }
+
+nav a {
+    margin: 5px;
+}
