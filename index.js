@@ -3,6 +3,18 @@ function changeLanguage(event) {
     document.location = event.target.value
 }
 
+function cal() {
+  alert("Coming in 2023");
+}
+
+function cam() {
+  alert("Coming in 2024");
+}
+
+function ukr() {
+  alert("Coming in 2025");
+}
+
 window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());

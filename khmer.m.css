@@ -70,3 +70,7 @@ p {
 a, select, small, strong {
     font-size: 1.1rem;
 }
+
+p a {
+    font-size: 1.5rem;
+}

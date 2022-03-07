@@ -3,6 +3,18 @@ function changeLanguage(event) {
     document.location = event.target.value
 }
 
+function cal() {
+  alert("មកដល់ឆ្នាំ 2023");
+}
+
+function cam() {
+  alert("មកដល់ឆ្នាំ 2024");
+}
+
+function ukr() {
+  alert("មកដល់ឆ្នាំ 2025");
+}
+
 window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
