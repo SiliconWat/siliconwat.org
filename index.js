@@ -4,15 +4,15 @@ function changeLanguage(event) {
 }
 
 function cal() {
-  alert("Coming in 2023");
+  alert("Coming in 2025");
 }
 
 function cam() {
-  alert("Coming in 2024");
+  alert("Coming in 2026");
 }
 
 function ukr() {
-  alert("Coming in 2025");
+  alert("Coming in 2027");
 }
 
 window.dataLayer = window.dataLayer || [];

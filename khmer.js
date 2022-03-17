@@ -4,15 +4,15 @@ function changeLanguage(event) {
 }
 
 function cal() {
-  alert("មកដល់ឆ្នាំ 2023");
+  alert("មកដល់ឆ្នាំ 2025");
 }
 
 function cam() {
-  alert("មកដល់ឆ្នាំ 2024");
+  alert("មកដល់ឆ្នាំ 2026");
 }
 
 function ukr() {
-  alert("មកដល់ឆ្នាំ 2025");
+  alert("មកដល់ឆ្នាំ 2027");
 }
 
 window.dataLayer = window.dataLayer || [];
