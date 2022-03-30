@@ -1,7 +1,6 @@
 html {
     font-size: medium;
 }
-
 body {
     background: grey;
     margin: 0;
@@ -46,11 +45,11 @@ footer {
 }
 
 header img {
-    height: 100px;
+    height: 100px
 }
 
 main img {
-    height: 300px;
+    height: 300px
 }
 
 h1 {
