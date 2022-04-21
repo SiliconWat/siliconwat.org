@@ -76,10 +76,10 @@ p a {
     font-size: 1.5rem;
 }
 
-main nav:first-of-type a {
+main nav:not(:last-of-type) a {
     display: flex;
-    justify-content: center;
     margin: 5px;
+    justify-content: center;
 }
 
 main nav:last-of-type a {
