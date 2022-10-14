@@ -23,12 +23,18 @@ template.innerHTML = `
                             <li>Khmer</li>
                             <li>Math</li>
                         </menu>
-                        <h4>Extracurricular Activities</h4>
+                        <h4>Club Activities</h4>
                         <menu>
                             <li>Music Recitals</li>
+                            <li>Money Lessons</li>
+                            <li>Gratitude Journals</li>
+                        </menu>
+                        <h4>Competitions for Charity</h4>
+                        <menu>
                             <li>Skate Dancing</li>
                             <li>Takraw Tournaments</li>
                         </menu>
+                        <button onclick="this.getRootNode().host.dispatch('donate')">Donate with GitHub</button>
                     </div>
                 </li>
             </ul>
@@ -49,6 +55,7 @@ template.innerHTML = `
                             <li>Chrouy Svay</li>
                             <li>Phumi Klong</li>
                         </menu>
+                        <button>Purchase NK Coins</button>
                     </div>
                 </li>
             </ul>
@@ -74,22 +81,21 @@ template.innerHTML = `
             </ul>
             <ul>
                 <li>
-                    <h3>Startup Incubator</h3>
+                    <h3>Incubator</h3>
                     <div>
                         <button onclick="this.getRootNode().host.dispatch('apply')">Apply for Admission</button>
-                        <h4>Team Workshops</h4>
+                        <h4>Apprenticeship Program</h4>
                         <menu>
-                            <li>Livestream Tech Talks</li>
-                            <li>Hack-a-Thon</li>
-                            <li>3D Printing</li>
-                            <li>Internet of Things</li>
+                            <li>Livestream Tech CEO Talks</li>
+                            <li>Team Hack-a-Thon's</li>
+                            <li>3D Printing & IoT Workshops at 333™</li>
                         </menu>
-                        <h4>CEO Club</h4>
+                        <h4>Club Tech CEOs</h4>
                         <menu>
-                            <li>Apply for Funding at HeartBank®</li>
                             <li>Coworking Spaces</li>
                             <li>Live-in Accommodations</li>
-                            <li>Portfolio Companies</li>
+                            <li>HeartBank® Seed Funds</li>
+                            <li>Subsidiary Companies</li>
                         </menu>
                     </div>
                 </li>
@@ -98,18 +104,18 @@ template.innerHTML = `
                 <li>
                     <h3>Vacay Here!</h3>
                     <div>
-                        <button onclick="this.getRootNode().host.dispatch('donate')">Donate with GitHub</button>
+                        <button>Apply for Scholarships</button>
+                        <h4>Remote University</h4>
+                        <menu>
+                            <li>Frontend Music Course</li>
+                            <li>Backend Blockchain Course</li>
+                            <li>iOS Metaverse Course</li>
+                        </menu>
                         <h4>Inclusion & Diversity</h4>
                         <menu>
                             <li>Women & Minorities</li>
+                            <li>Cambodian Culture</li>
                             <li>Ukrainian Refugees</li>
-                            <li>Cambodian Genocide</li>
-                        </menu>
-                        <h4>Remote University</h4>
-                        <menu>
-                            <li>Frontend Music</li>
-                            <li>Backend Blockchain</li>
-                            <li>iOS Metaverse</li>
                         </menu>
                     </div>
                 </li>
