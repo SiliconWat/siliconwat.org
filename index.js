@@ -1,22 +1,14 @@
-function changeLanguage(event) {
-    //console.log(event.target.value)
-    document.location = event.target.value
-}
+import "./components/sw-header/element.mjs";
 
-function cal() {
-  alert("Coming in 2025");
-}
+import "./components/sw-main/sw-apply/element.mjs";
+import "./components/sw-main/sw-volunteer/element.mjs";
+import "./components/sw-main/sw-donate/element.mjs";
+import "./components/sw-main/element.mjs";
 
-function cam() {
-  alert("Coming in 2026");
-}
-
-function ukr() {
-  alert("Coming in 2027");
-}
+import "./components/sw-footer/element.mjs";
+import "./components/sw-provider/element.mjs";
 
 window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5KRBGHZ5GV');
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-5KRBGHZ5GV');

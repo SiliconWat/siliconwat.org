@@ -1,62 +1,22 @@
 <html>
     <head>
         <title>Silicon Wat Campus</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="logo.png">
-        <link rel="stylesheet" href="index.css" media="(min-width: 480px)" />
-        <link rel="stylesheet" href="index.m.css" media="(max-width: 480px)"/>
-        <script src="index.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="siliconwat.png">
+        <link rel="stylesheet" href="index.css">
+        <script src="//unpkg.com/@ungap/custom-elements/es.js"></script>
+        <script src="index.js" type="module"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KRBGHZ5GV"></script>
     </head>
-    <body>
-        <header>
-            <section>
-                <img src="logo.png">
-                <h1>Silicon Wat Campus</h1>
-            </section>
-            <section>
-                <nav>
-                    <a href="#" onclick="cal()">California</a>
-                    <a href="#" onclick="cam()">Cambodia</a>
-                    <a href="#" onclick="ukr()">Ukraine</a>
-                    <a href="https://github.com/sponsors/SiliconWat">Donate</a>
-                </nav>
-                <select onchange="changeLanguage(event)">
-                    <option value="index.html">English</option>
-                    <option value="khmer.html">Khmer</option>
-                </select>
-            </section>
-        </header>
+    <body is="sw-provider">
+        <sw-header></sw-header>
         <main>
-            <!--<img src="student.png">-->
-            <p><b>Startup Incubator</b> for Technical Founders</p>
-            <!--<p>Dorm at our <a href="#" onclick="alert('In development...')">Airbnb</a>, learn to code, enjoy outdoor classes, and apprentice at <a href="https://heartbank.fund">HeartBank</a>!</p>-->
-            <nav>
-                <!--<a href="https://forms.gle/RxRqfVqG1SMYF6HK9">Take Survey!</a>-->
-                <a href="#" onclick="alert('Coming soon...')">Tree Meditation Class</a>
-                <a href="#" onclick="alert('Coming soon...')">Outdoor Cooking Class</a>
-                <a href="#" onclick="alert('Coming soon...')">3D Printing IoT Class</a>
-                <a href="#" onclick="alert('Coming soon...')">Dance Skating Class</a>
-            </nav>
-            <br />
-            <nav>
-                <a href="#" onclick="alert('Coming soon...')">#Hack-a-Thon (projects-based tutoring)</a>
-                <a href="#" onclick="alert('Coming soon...')">Takraw Tournament</a>
-                <a href="#" onclick="alert('Coming soon...')">Metaverse Arcade</a>
-                <a href="#" onclick="alert('Coming soon...')">Music Recital</a>
-            </nav>
-            <br />
-            <nav>
-                <!--<a href="https://discord.gg/9MAGPryJpN">Discord</a>-->
-                <a href="https://github.com/SiliconWat">GitHub</a>
-                <a href="https://www.facebook.com/siliconwat">Facebook</a>
-                <a href="https://twitter.com/siliconwat">Twitter</a>
-            </nav>
+            <sw-main>
+                <sw-apply></sw-apply>
+                <sw-volunteer></sw-volunteer>
+                <sw-donate></sw-donate>
+            </sw-main>
+            <sw-footer></sw-footer>
         </main>
-        <footer>
-            <strong>Hosted at <a href="https://nhiakou.org">Nhia Kou Orchard</a></strong>
-            <small><a href="https://siliconwat.com">Silicon Wat LLC</a> &copy; 2022</small>
-            <a href="mailto:donate@siliconwat.org">donate@siliconwat.org</a>
-        </footer>
     </body>
 </html>
