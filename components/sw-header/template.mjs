@@ -123,9 +123,9 @@ template.innerHTML = `
         </nav>
         <aside>
             <select onchange="changeLanguage(event)">
-                <option>Cambodia</option>
-                <option disabled>Ukraine</option>
-                <option disabled>United States</option>
+                <option value="kh">Cambodia</option>
+                <option value="ua" disabled>Ukraine</option>
+                <option value="us" disabled>United States</option>
             </select>
         </aside>
     </header>
