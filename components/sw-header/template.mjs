@@ -14,48 +14,21 @@ template.innerHTML = `
         <nav>
             <ul>
                 <li>
-                    <h3>For Kids</h3>
+                    <h3>eLearn</h3>
                     <div>
-                        <button onclick="this.getRootNode().host.dispatch('volunteer')">Volunteer</button>
-                        <h4>Coding Classes</h4>
+                        <button>Apply for Scholarships</button>
+                        <h4>Remote University</h4>
                         <menu>
-                            <li>English</li>
-                            <li>Khmer</li>
-                            <li>Math</li>
+                            <li>Frontend Music Course</li>
+                            <li>Backend Blockchain Course</li>
+                            <li>iOS Metaverse Course</li>
                         </menu>
-                        <h4>Club Activities</h4>
+                        <h4>Inclusion & Diversity</h4>
                         <menu>
-                            <li>Music Recitals</li>
-                            <li>Money Lessons</li>
-                            <li>Gratitude Journals</li>
+                            <li>Women & Minorities</li>
+                            <li>Cambodian Culture</li>
+                            <li>Ukrainian Refugees</li>
                         </menu>
-                        <h4>Competitions for Charity</h4>
-                        <menu>
-                            <li>Skate Dancing</li>
-                            <li>Takraw Tournaments</li>
-                        </menu>
-                        <button onclick="this.getRootNode().host.dispatch('donate')">Donate with GitHub</button>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Orchards</h3>
-                    <div>
-                        <button>Make a Reservation</button>
-                        <h4>Outdoor Group Activities</h4>
-                        <menu>
-                            <li>Silent Walking Meditation</li>
-                            <li>Tropical Fruit Picking & Eating</li>
-                            <li>Tropical Fruit Drink Mixing</li>
-                        </menu>
-                        <h4>Indoor Farmers' Markets</h4>
-                        <menu>
-                            <li>Pro Teal</li>
-                            <li>Chrouy Svay</li>
-                            <li>Phumi Klong</li>
-                        </menu>
-                        <button>Purchase NK Coins</button>
                     </div>
                 </li>
             </ul>
@@ -81,6 +54,54 @@ template.innerHTML = `
             </ul>
             <ul>
                 <li>
+                    <h3>Orchards</h3>
+                    <div>
+                        <button>Make Reservations</button>
+                        <h4>Outdoor Group Activities</h4>
+                        <menu>
+                            <li>Silent Walking Meditation</li>
+                            <li>Zero-Mind Meditation</li>
+                            <li>Tropical Fruit Picking & Eating</li>
+                            <li>Tropical Fruit Drink Mixing</li>
+                        </menu>
+                        <h4>Indoor Farmers' Markets</h4>
+                        <menu>
+                            <li>Nhia Kou Markets</li>
+                            <li>Nhia Kou Orchards</li>
+                        </menu>
+                        <button>Purchase NK Coins</button>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>For Kids</h3>
+                    <div>
+                        <button onclick="this.getRootNode().host.dispatch('volunteer')">Volunteer with THonly™</button>
+                        <h4>Coding Classes</h4>
+                        <menu>
+                            <li>English</li>
+                            <li>Khmer</li>
+                            <li>Math</li>
+                            <li>Code-a-Thon</li>
+                        </menu>
+                        <h4>Club Activities</h4>
+                        <menu>
+                            <li>Music Recitals</li>
+                            <li>Money Lessons</li>
+                            <li>Kiitos Diaries</li>
+                        </menu>
+                        <h4>Competitions for Charity</h4>
+                        <menu>
+                            <li>Skate Dancing</li>
+                            <li>Takraw Tournaments</li>
+                        </menu>
+                        <button onclick="this.getRootNode().host.dispatch('donate')">Donate with GitHub</button>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
                     <h3>Incubator</h3>
                     <div>
                         <button onclick="this.getRootNode().host.dispatch('apply')">Apply for Admission</button>
@@ -88,34 +109,14 @@ template.innerHTML = `
                         <menu>
                             <li>Livestream Tech CEO Talks</li>
                             <li>Team Hack-a-Thon's</li>
-                            <li>3D Printing & IoT Workshops at 333™</li>
+                            <li>3D Printing & IoT Workshops at 333™ Lab</li>
                         </menu>
                         <h4>Club Tech CEOs</h4>
                         <menu>
                             <li>Coworking Spaces</li>
                             <li>Live-in Accommodations</li>
                             <li>HeartBank® Seed Funds</li>
-                            <li>Subsidiary Companies</li>
-                        </menu>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Vacay Here!</h3>
-                    <div>
-                        <button>Apply for Scholarships</button>
-                        <h4>Remote University</h4>
-                        <menu>
-                            <li>Frontend Music Course</li>
-                            <li>Backend Blockchain Course</li>
-                            <li>iOS Metaverse Course</li>
-                        </menu>
-                        <h4>Inclusion & Diversity</h4>
-                        <menu>
-                            <li>Women & Minorities</li>
-                            <li>Cambodian Culture</li>
-                            <li>Ukrainian Refugees</li>
+                            <li>Decentralized Companies</li>
                         </menu>
                     </div>
                 </li>

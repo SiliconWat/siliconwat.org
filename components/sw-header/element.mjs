@@ -7,12 +7,11 @@ class SwHeader extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 
-    connectedCallback() {
-        
-    }
-
-    dispatch(component) {
-        this.dispatchEvent(new CustomEvent("sw", { bubbles: true, composed: true, detail: { component }}));
+    changeLanguage(event) {
+        const searchParams = new URLSearchParams(window.location.search);
+        searchParams.set("lang", event.target.value);
+        window.location.search = searchParams.toString();
+        //TODO: change base url to include language
     }
 }
 
