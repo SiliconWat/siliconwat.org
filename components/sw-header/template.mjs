@@ -125,7 +125,7 @@ template.innerHTML = `
             </ul>
         </nav>
         <aside>
-            <select onchange="changeLanguage(event)">
+            <select onchange="this.getRootNode().host.changeCountry(event)">
                 <option value="kh">Cambodia</option>
                 <option value="ua" disabled>Ukraine</option>
                 <option value="us" disabled>United States</option>

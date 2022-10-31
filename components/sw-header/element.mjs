@@ -7,11 +7,11 @@ class SwHeader extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 
-    changeLanguage(event) {
+    changeCountry(event) {
         const searchParams = new URLSearchParams(window.location.search);
         searchParams.set("lang", event.target.value);
         window.location.search = searchParams.toString();
-        //TODO: change base url to include language
+        //TODO: change base url to include country
     }
 }
 
