@@ -11,9 +11,9 @@ class SwMain extends HTMLElement {
     }
 
     connectedCallback() {
+        this.style.display = 'block';
         this.#buildElements();
         this.#startIntervalCounter();
-        this.style.display = 'block';
         this.#render();
     }
 

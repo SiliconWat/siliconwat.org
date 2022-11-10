@@ -4,6 +4,7 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/sw-main/shadow.css">
+    <slot></slot>
     <div class="page-wrapper">
         <div class="sky">
             <div class="component-wrapper">
@@ -80,7 +81,6 @@ template.innerHTML = `
         </div>
         <div class="ground"></div>
     </div>
-    <slot></slot>
 `;
 
 export default template;
