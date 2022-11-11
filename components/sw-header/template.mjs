@@ -22,7 +22,7 @@ template.innerHTML = `
                         <li><a>Backend Blockchain Course</a></li>
                         <li><a>iOS Metaverse Course</a></li>
                     </menu>
-                    <h4>Inclusion & naversity</h4>
+                    <h4>Inclusion & Diversity</h4>
                     <menu>
                         <li><a>Women & Minorities</a></li>
                         <li><a>Cambodian Culture</a></li>
@@ -55,7 +55,6 @@ template.innerHTML = `
                     <h4>Outdoor Group Activities</h4>
                     <menu>
                         <li><a>Silent Walking Meditation</a></li>
-                        <li><a>Zero-Mind Meditation</a></li>
                         <li><a>Tropical Fruit Picking & Eating</a></li>
                         <li><a>Tropical Fruit Drink Mixing</a></li>
                     </menu>
@@ -85,7 +84,7 @@ template.innerHTML = `
                         <li><a>Money Lessons</a></li>
                         <li><a>Kiitos Diaries</a></li>
                     </menu>
-                    <h4>Competitions for Charity</h4>
+                    <h4>Charity Fundraisers</h4>
                     <menu>
                         <li><a>Skate Dancing</a></li>
                         <li><a>Takraw Tournaments</a></li>
