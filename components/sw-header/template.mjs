@@ -79,6 +79,7 @@ template.innerHTML = `
                         <li><a>Khmer</a></li>
                         <li><a>Math</a></li>
                         <li><a>Code-a-Thon</a></li>
+                        <li><a>Livestream Tutoring</a></li>
                     </menu>
                     <h4>Club Activities</h4>
                     <menu>
