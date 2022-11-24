@@ -58,7 +58,7 @@ template.innerHTML = `
                     <menu>
                         <li><a>Silent Walking Meditation</a></li>
                         <li><a>Tropical Fruit Picking & Eating</a></li>
-                        <li><a>Tropical Fruit Drink Mixing</a></li>
+                        <li><a>Tropical Fruit Drink Mixer</a></li>
                     </menu>
                     <h4>Indoor Farmers' Markets</h4>
                     <menu>
