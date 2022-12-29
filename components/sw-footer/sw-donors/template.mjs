@@ -2,7 +2,7 @@ import { ORIGIN, THONLY } from "/global.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
-    <link rel="stylesheet" href="${THONLY}/components/tl-footer/shadow.css">
+    <link rel="stylesheet" href="${THONLY}/components/tl-footer/tl-donors/shadow.css">
     <link rel="stylesheet" href="${ORIGIN}/components/sw-footer/sw-donors/shadow.css">
     <h5>Donors</h5>
     <ul class="donors">
