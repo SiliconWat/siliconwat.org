@@ -15,7 +15,8 @@ main {
 }
 
 button {
-    font-size: larger;
+    font-size: large;
+    padding: 5px 40px;
     cursor: pointer;
 }
   
