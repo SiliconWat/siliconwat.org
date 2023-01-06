@@ -10,8 +10,8 @@ main {
     width: 100%;
     opacity: 0.5;
     text-align: left;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 7%;
+    margin-left: 5%;
 }
 
 button {
@@ -27,7 +27,7 @@ button {
   
     main {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 4%;
         margin-left: 0;
     }
 }
