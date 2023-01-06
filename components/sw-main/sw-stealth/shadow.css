@@ -4,14 +4,19 @@
     position: relative;
 }
   
-h1 {
+main {
     position: absolute;
     z-index: 100;
-    margin-top: 10%;
-    margin-left: 5%;
     width: 100%;
-    text-align: left;
     opacity: 0.5;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+button {
+    font-size: larger;
+    cursor: pointer;
 }
   
 @media (max-width: 480px) {
@@ -19,9 +24,9 @@ h1 {
         font-size: small;
     }
   
-    h1 {
+    main {
         text-align: center;
-        margin-top: 20%;
+        margin-top: 30px;
         margin-left: 0;
     }
 }

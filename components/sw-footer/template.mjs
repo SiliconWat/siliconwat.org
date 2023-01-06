@@ -30,9 +30,9 @@ template.innerHTML = `
                     <h5>Connect</h5>
                     <ul>
                         <li><a href="https://me.thonly.net/#SiliconWat">THonly</a></li>
-                        <li><a href="https://twitter.com/siliconwat">Twitter</a></li>
+                        <!--<li><a href="https://twitter.com/siliconwat">Twitter</a></li>-->
                         <li><a href="https://www.facebook.com/siliconwat">Facebook</a></li>
-                        <li><a href="https://medium.com/@siliconwat">Medium</a></li>
+                        <!--<li><a href="https://medium.com/@siliconwat">Medium</a></li>-->
                     </ul>
                 </div>
                 <div>
