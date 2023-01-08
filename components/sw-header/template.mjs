@@ -75,10 +75,9 @@ template.innerHTML = `
                     <a><button>Volunteer with THonly™</button></a>
                     <h4>Coding Classes</h4>
                     <menu>
-                        <li><a>English</a></li>
-                        <li><a>Khmer</a></li>
-                        <li><a>Math</a></li>
-                        <li><a>Code-a-Thon</a></li>
+                        <li><a>Learn English</a></li>
+                        <li><a>Learn Math</a></li>                   
+                        <li><a>Story Code-a-Thon</a></li>
                         <li><a>Livestream Tutoring</a></li>
                     </menu>
                     <h4>Club Activities</h4>
