@@ -22,6 +22,7 @@ template.innerHTML = `
                     <ul>
                         <li><a href="https://heartbank.fund/#SiliconWat">HeartBank</a></li>
                         <li><a href="https://github.com/sponsors/SiliconWat">GitHub</a></li>
+                        <li><a href="https://medium.com/@thonly/membership">Medium</a></li>
                     </ul>
                 </div>
             </section>
@@ -31,7 +32,7 @@ template.innerHTML = `
                     <ul>
                         <li><a href="https://me.thonly.net/#SiliconWat">THonly</a></li>
                         <li><a href="https://www.facebook.com/siliconwat">Facebook</a></li>
-                        <li><a href="https://medium.com/@thonly">Medium</a></li>
+                        <li><a href="https://medium.com/siliconwat">Medium</a>
                         <!--<li><a href="https://medium.com/@siliconwat">Medium</a></li>-->
                     </ul>
                 </div>
