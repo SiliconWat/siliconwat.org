@@ -117,8 +117,8 @@ template.innerHTML = `
         </ul>
         <aside>
             <select onchange="this.getRootNode().host.changeCountry(event)">
-                <option value="ua">Ukraine</option>
                 <option value="kh" disabled>Cambodia</option>
+                <option value="ua" selected>Ukraine</option>
                 <option value="us" disabled>United States</option>
             </select>
         </aside>
