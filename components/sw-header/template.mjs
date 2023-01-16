@@ -27,7 +27,7 @@ template.innerHTML = `
                     <h4>Remote Job</h4>
                     <menu>
                         <li><a>Volunteer Tutor</a></li>
-                        <li><a>Paid Consultant</a></li>
+                        <li><a>Paid Freelancer</a></li>
                     </menu>
                     <h4>Inclusion & Diversity</h4>
                     <menu>
