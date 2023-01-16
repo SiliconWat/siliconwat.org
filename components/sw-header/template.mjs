@@ -77,7 +77,7 @@ template.innerHTML = `
             <li>
                 <h3>For Kids</h3>
                 <nav>
-                    <a><button>Volunteer with THonly™</button></a>
+                    <a><button>Volunteer at THonly™</button></a>
                     <h4>Coding Classes</h4>
                     <menu>
                         <li><a>Learn English</a></li>
