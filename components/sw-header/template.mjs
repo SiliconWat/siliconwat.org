@@ -18,17 +18,22 @@ template.innerHTML = `
                 <h3>eLearn</h3>
                 <nav>
                     <a><button>Apply for Scholarships</button></a>
-                    <h4>Remote University</h4>
+                    <h4>Online University</h4>
                     <menu>
                         <li><a>Frontend Music Course</a></li>
                         <li><a>Backend Blockchain Course</a></li>
                         <li><a>iOS Metaverse Course</a></li>
                     </menu>
+                    <h4>Remote Job</h4>
+                    <menu>
+                        <li><a>Volunteer Tutor</a></li>
+                        <li><a>Paid Consultant</a></li>
+                    </menu>
                     <h4>Inclusion & Diversity</h4>
                     <menu>
                         <li><a>Women & Minorities</a></li>
-                        <li><a>Cambodian Culture</a></li>
                         <li><a>Ukrainian Refugees</a></li>
+                        <li><a>Cambodian Survivors</a></li>
                     </menu>
                 </nav>
             </li>
