@@ -71,7 +71,7 @@ template.innerHTML = `
                         <li><a>Nhia Kou Orchards</a></li>
                     </menu>
                     <br>
-                    <a><button>Purchase NK Coins</button></a>
+                    <a href="#coin"><button>Purchase NK Coins</button></a>
                 </nav>
             </li>
             <li>
@@ -97,7 +97,7 @@ template.innerHTML = `
                         <li><a>Takraw Tournaments</a></li>
                     </menu>
                     <br>
-                    <a><button>Play at Kiitos</button></a>
+                    <a href="#kiitos"><button>Play at Kiitos</button></a>
                 </nav>
             </li>
             <li>
