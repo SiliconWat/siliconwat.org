@@ -1,25 +1,41 @@
+import { THONLY } from 'https://thonly.org/global.mjs';
+import kiitos from "./kiitos.mjs";
 import template from './template.mjs';
 
 class SwMain extends HTMLElement {
-    #hash = window.location.hash ? "SW-" + window.location.hash.substring(1).toUpperCase() : "SW-STEALTH";
-
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
-        window.addEventListener("hashchange", event => window.location.reload());
+        window.addEventListener("hashchange", event => this.#render(false));
     }
 
-    connectedCallback() {
-        this.style.display = 'block';
+    async connectedCallback() {
+        await import(`${THONLY}/components/tl-main/tl-kiitos/element.mjs`);
+        await import(`${THONLY}/components/tl-main/tl-robot/element.mjs`);
         this.#buildElements();
         this.#startIntervalCounter();
-        this.#render();
+        this.#render(true);
     }
 
-    #render() {
-        this.shadowRoot.querySelector("slot").assignedElements().forEach(element => element.style.display = 'none');
-        this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === this.#hash).render();
+    #render(refresh) {
+        const page = window.location.hash.substring(1);
+        this.shadowRoot.querySelectorAll('header, main, footer').forEach(element => element.style.display = 'none');
+        
+        if (page) {
+            this.shadowRoot.querySelector('tl-kiitos').render(kiitos[page]);
+            this.shadowRoot.querySelector('main').style.display = 'block';
+        } else {
+            const a = this.shadowRoot.querySelector('a');
+            a.href = "https://www.facebook.com/siliconwat";
+            a.firstElementChild.innerHTML = "<b>Follow</b> for real-time updates!";
+            this.shadowRoot.querySelector('header').style.display = 'block';
+            this.shadowRoot.querySelector('footer').style.display = 'block';
+        }
+        
+        this.style.display = 'block';
+        if (refresh) setTimeout(() => document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300)
+        else document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
     }
 
     #getRandomInt(min, max, string = true) {

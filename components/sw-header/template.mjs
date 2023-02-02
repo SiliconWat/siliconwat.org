@@ -6,8 +6,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/sw-header/shadow.css">
     <header>
         <section>
-            <a href="/"><img src="siliconwat.png"></a>
-            <a href="/"><h1>Silicon Wat Campus</h1></a>
+            <a href="#"><img src="siliconwat.png"></a>
+            <h1>Silicon Wat Campus</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -17,30 +17,30 @@ template.innerHTML = `
             <li>
                 <h3>eLearn</h3>
                 <nav>
-                    <a><button>Apply for Scholarships</button></a>
+                    <a href="#scholarship"><button>Apply for Scholarships</button></a>
                     <h4>Online University</h4>
                     <menu>
-                        <li><a>Frontend Music Course</a></li>
-                        <li><a>Backend Blockchain Course</a></li>
-                        <li><a>iOS Metaverse Course</a></li>
+                        <li><a href="#frontend">Frontend Music Course</a></li>
+                        <li><a href="#backend">Backend Blockchain Course</a></li>
+                        <li><a href="#io">iOS Metaverse Course</a></li>
                     </menu>
                     <h4>Remote Job</h4>
                     <menu>
-                        <li><a>Volunteer Tutor</a></li>
-                        <li><a>Paid Freelancer</a></li>
+                        <li><a href="#tutor">Volunteer Tutor</a></li>
+                        <li><a href="#freelancer">Paid Freelancer</a></li>
                     </menu>
                     <h4>Inclusion & Diversity</h4>
                     <menu>
-                        <li><a>Women & Minorities</a></li>
-                        <li><a>Ukrainian Refugees</a></li>
-                        <li><a>Cambodian Survivors</a></li>
+                        <li><a href="#minorities">Women & Minorities</a></li>
+                        <li><a href="#refugees">Ukrainian Refugees</a></li>
+                        <li><a href="#survivors">Cambodian Survivors</a></li>
                     </menu>
                 </nav>
             </li>
             <li>
                 <h3>Dorms</h3>
                 <nav>
-                    <a><button>Book on Airbnb</button></a>
+                    <a href="#airbnb"><button>Book on Airbnb</button></a>
                     <h4>Anemities</h4>
                     <menu>
                         <li><a>Study Groups</a></li>
@@ -58,7 +58,7 @@ template.innerHTML = `
             <li>
                 <h3>Orchards</h3>
                 <nav>
-                    <a><button>Make Reservations</button></a>
+                    <a href="#reservation"><button>Make Reservations</button></a>
                     <h4>Outdoor Group Activities</h4>
                     <menu>
                         <li><a>Silent Walking Meditation</a></li>
@@ -77,7 +77,7 @@ template.innerHTML = `
             <li>
                 <h3>For Kids</h3>
                 <nav>
-                    <a><button>Create at THonly™</button></a>
+                    <a href="#THonly"><button>Create at THonly™</button></a>
                     <h4>Coding Classes</h4>
                     <menu>
                         <li><a>Learn English</a></li>
@@ -103,7 +103,7 @@ template.innerHTML = `
             <li>
                 <h3>Incubator</h3>
                 <nav>
-                    <a><button>Apply for Admission</button></a>
+                    <a href="#admission"><button>Apply for Admission</button></a>
                     <h4>Apprenticeship Program</h4>
                     <menu>
                         <li><a>Livestream Tech CEO Talks</a></li>

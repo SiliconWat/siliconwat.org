@@ -4,7 +4,18 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/sw-main/shadow.css">
-    <slot></slot>
+    <header>
+        <h1>Currently in stealth development...</h1>
+        <br>
+        <a><button></button></a>
+    </header>
+    <main>
+        <tl-kiitos></tl-kiitos>
+    </main>
+    <footer>
+        <!--<tl-robot></tl-robot>-->
+    </footer>
+    
     <div class="page-wrapper">
         <div class="sky">
             <div class="component-wrapper">
