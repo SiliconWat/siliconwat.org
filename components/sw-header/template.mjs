@@ -22,7 +22,7 @@ template.innerHTML = `
                     <menu>
                         <li><a href="#frontend">Frontend Music Course</a></li>
                         <li><a href="#backend">Backend Blockchain Course</a></li>
-                        <li><a href="#io">iOS Metaverse Course</a></li>
+                        <li><a href="#ios">iOS Metaverse Course</a></li>
                     </menu>
                     <h4>Remote Job</h4>
                     <menu>
