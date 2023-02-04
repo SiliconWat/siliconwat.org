@@ -114,7 +114,7 @@ template.innerHTML = `
                     <menu>
                         <li><a>Coworking Spaces</a></li>
                         <li><a>Live-in Accommodations</a></li>
-                        <li><a>HeartBank® Seed Funds</a></li>
+                        <li><a>HeartBank<sup>®</sup> Seed Funds</a></li>
                         <li><a>Decentralized Companies</a></li>
                     </menu>
                 </nav>
