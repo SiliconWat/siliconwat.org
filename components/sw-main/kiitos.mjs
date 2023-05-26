@@ -63,12 +63,12 @@ export default {
         href: null
     },
     // for kids
-    THonly: {
+    heartbank: {
         chat: `Coming soon...`,
         button: null,
         href: null
     },
-    kiitos: {
+    kiitti: {
         chat: `Coming soon...`,
         button: null,
         href: null

@@ -78,19 +78,19 @@ template.innerHTML = `
                 <li>
                     <h3>For Kids</h3>
                     <nav>
-                        <a href="#THonly"><button>Create at THonly™</button></a>
+                        <a href="#heartbank"><button>MicroBank</button></a>
                         <h4>Coding Classes</h4>
                         <menu>
                             <li><a>Learn English</a></li>
-                            <li><a>Learn Math</a></li>                   
-                            <li><a>Story Code-a-Thon</a></li>
+                            <li><a>Learn Khmer</a></li>              
+                            <!--<li><a>Story Code-a-Thon</a></li>-->
                             <li><a>Livestream Tutoring</a></li>
                         </menu>
                         <h4>Club Activities</h4>
                         <menu>
-                            <li><a>Music Recitals</a></li>
-                            <li><a>Money Lessons</a></li>
                             <li><a>Kiitos Diaries</a></li>
+                            <li><a>Music Recitals</a></li>
+                            <!--<li><a>Money Lessons</a></li>-->
                         </menu>
                         <h4>Charity Fundraisers</h4>
                         <menu>
@@ -98,7 +98,7 @@ template.innerHTML = `
                             <li><a>Takraw Tournaments</a></li>
                         </menu>
                         <br>
-                        <a href="#kiitos"><button>Play at Kiitos</button></a>
+                        <a href="#kiitti"><button>Play at Kiitti</button></a>
                     </nav>
                 </li>
                 <li>
